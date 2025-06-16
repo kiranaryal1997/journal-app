@@ -6,4 +6,6 @@ spring:
       port: 27017
       database: nepjol
       auto-index-creation: true
+  main:
+    allow-circular-references: true
 
