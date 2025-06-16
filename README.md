@@ -4,7 +4,7 @@ The Journal App is a secure and scalable RESTful web application built using Jav
 ## Public
 POST /public/create-user — Create user (Public)
 
-User (Authenticated)
+## User (Authenticated)
 PUT /user — Update user (Auth)
 
 GET /journal — Get all journals (Auth)
@@ -17,7 +17,7 @@ PUT /journal/id/{id} — Update journal by ID (Auth)
 
 DELETE /journal/id/{id} — Delete journal by ID (Auth)
 
-Admin (Authorized)
+## Admin (Authorized)
 GET /admin/all-users — Get all users (Admin)
 
 POST /admin/create-admin-user — Create admin user (Admin)
