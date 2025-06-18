@@ -1,10 +1,18 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://<<username>>:<<password>>@cluster0.hlzs3su.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://kiranaryal2000:7fTtO1JNPjmQPben@cluster0.hlzs3su.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
       port: 27017
       database: nepjol
       auto-index-creation: true
   main:
     allow-circular-references: true
+
+#logging:
+#  level:
+#    net:
+#      kiranaryal:
+#        journal_app: DEBUG
+
+
 
